@@ -8,14 +8,14 @@ interface BookAttrs {
   cover: string;
   createDate?: string;
   updateDate?: string;
-  tags?: string[];
+  tags: string[];
   source: {
     format: string;
     size: string;
-    pages?: number;
+    pages: number;
     fileName: string;
     location: string;
-  };
+  }[];
   active?: boolean;
   download?: number;
 }
@@ -84,4 +84,4 @@ bookSchema.statics.build = (attrs: BookAttrs) => {
 
 const Book = mongoose.model<BookDoc, BookModel>("Book", bookSchema);
 
-export { Book,BookAttrs };
+export { Book, BookAttrs };
