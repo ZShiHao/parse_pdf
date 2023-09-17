@@ -1,0 +1,27 @@
+{
+  "name": "pdfparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ali-oss": "^6.16.8",
+    "@types/gm": "^1.25.1",
+    "ali-oss": "^6.18.1",
+    "commander": "^11.0.0",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "gm": "^1.25.0",
+    "mongoose": "^7.5.2",
+    "pdf-lib": "^1.17.1",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  }
+}
